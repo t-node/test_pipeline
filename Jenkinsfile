@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        echo 'This is a build $BUILD_NUMBER'
+        echo "This is a build $BUILD_NUMBER with demo as $DEMO"
       }
     }
 
